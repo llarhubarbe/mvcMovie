@@ -17,5 +17,6 @@ namespace mvcMovie.Models
     public class MovieDBContext: DbContext
     {
         public DbSet<Movie> Movies { get; set; }
+        //todo: test
     }
 }
